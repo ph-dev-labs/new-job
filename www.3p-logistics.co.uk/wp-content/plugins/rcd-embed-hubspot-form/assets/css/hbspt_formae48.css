@@ -1,0 +1,17 @@
+.hbspt_form_wrapper div.input,
+.hbspt_form_wrapper div.input input,
+.hbspt_form_wrapper div.input select,
+.hbspt_form_wrapper div.input textarea,
+.hbspt_form_wrapper .multiselect{
+  width: 100%!important;
+}
+
+.hbspt_form_wrapper fieldset{
+  max-width: unset;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.hbspt_form_wrapper fieldset > div{
+  width: 100%!important;
+}
