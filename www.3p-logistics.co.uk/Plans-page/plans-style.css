@@ -1,163 +1,65 @@
-.demo
-{
-	padding: 50px 0;
-}
-.heading-title
-{
-	margin-bottom: 50px;
-}
 
-.pricingTable{
-    border: 2px solid #e3e3e3;
-    text-align: center;
-    position: relative;
-    padding-bottom: 40px;
-    transform: translateZ(0px);
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
-.pricingTable:before,
-.pricingTable:after{
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    bottom: -2px;
-    right: -2px;
-    z-index: -1;
-    transition: all 0.5s ease 0s;
+body {
+  background: #111d27;
+  color: #111;
+  min-width: 320px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  padding: 50px 20px;
 }
 
-.pricingTable:before{
-    border-right: 2px solid #08c6aa;
-    border-left: 2px solid #08c6aa;
-    transform: scaleY(0);
-    transform-origin: 100% 0 0;
+.pricing {
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	color: #777;
+	font-size: 14px;
+	padding-left: 0;
+	margin-bottom: 30px;
+  font-family: 'Lato';
 }
-
-.pricingTable:after{
-    border-bottom: 2px solid #08c6aa;
-    border-top: 2px solid #08c6aa;
-    transform: scaleX(0);
-    transform-origin: 0 100% 0;
+.pricing img {
+	display: block;
+	margin: auto;
+	width: 32px;
 }
-
-.pricingTable:hover:before{
-    transform: scaleY(1);
+.pricing li:first-child,
+.pricing li:last-child {
+	padding: 20px 13px;
 }
-
-.pricingTable:hover:after{
-    transform: scaleX(1);
+.pricing li {
+	list-style: none;
+	padding: 13px;
+}	
+	color: #4c7737;
 }
-
-.pricingTable .pricingTable-header{
-    background: #08c6aa;
-    color: #fff;
-    margin: -2px -2px 35px;
-    padding: 40px 0;
+.p-green button {
+	background: #4c7737;
 }
-
-.pricingTable .heading{
-    font-size: 30px;
-    font-weight: 600;
-    margin: 0 0 5px 0;
+.p-yel big,
+.p-yel h3 {
+	color: #ffbb42;
 }
-
-.pricingTable .subtitle{
-    font-size: 14px;
-    display: block;
+.p-yel button {
+	background: #ffbb42;
 }
-
-.pricingTable .price-value{
-    font-size: 72px;
-    font-weight: 600;
-    margin-top: 10px;
-    position: relative;
-    display: inline-block;
+.p-red big,
+.p-red h3 {
+	color: #e13c4c;
 }
-
-.pricingTable .currency{
-    font-size: 45px;
-    font-weight: normal;
-    position: absolute;
-    top: 2px;
-    left: -30px;
+.p-red button {
+	background: #e13c4c;
 }
-
-.pricingTable .month{
-    font-size: 20px;
-    position: absolute;
-    bottom: 17px;
-    right: -40px;
+.p-blue big,
+.p-blue h3 {
+	color: #3f4bb8;
 }
-
-.pricingTable .pricing-content{
-    list-style: none;
-    padding: 0;
-    margin-bottom: 30px;
-}
-
-.pricingTable .pricing-content li{
-    font-size: 16px;
-    color: #7a7e82;
-    line-height: 40px;
-}
-
-.pricingTable .read{
-    display: inline-block;
-    border: 2px solid #7a7e82;
-    border-right: none;
-    font-size: 14px;
-    font-weight: 700;
-    color: #7a7e82;
-    padding: 9px 30px;
-    position: relative;
-    text-transform: uppercase;
-    transition: all 0.3s ease 0s;
-}
-
-.pricingTable .read:hover{
-    border-color: #08c6aa;
-    color: #08c6aa;
-}
-
-.pricingTable .read i{
-    font-size: 19px;
-    margin-top: -10px;
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transition: all 0.3s ease 0s;
-}
-
-.pricingTable .read:hover i{
-    right: 5px;
-}
-
-.pricingTable .read:before,
-.pricingTable .read:after{
-    content: "";
-    display: block;
-    height: 30px;
-    border-left: 2px solid #7a7e82;
-    position: absolute;
-    right: -11px;
-    transition: all 0.3s ease 0s;
-}
-
-.pricingTable .read:before{
-    bottom: -6px;
-    transform: rotate(45deg);
-}
-
-.pricingTable .read:after{
-    top: -6px;
-    transform: rotate(-45deg);
-}
-
-.pricingTable .read:hover:before,
-.pricingTable .read:hover:after{
-    border-left-color: #08c6aa;
-}
-
-
-/* Credit to http://labs.bootstrapthemes.co/demo/Resource/PricingTableStyleDemo38/ 
+.p-blue button {
+	background: #3f4bb8;
+}}
+	
