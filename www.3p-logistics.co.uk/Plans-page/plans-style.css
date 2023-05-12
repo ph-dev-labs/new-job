@@ -159,8 +159,5 @@
     border-left-color: #08c6aa;
 }
 
-@media screen and (max-width: 990px){
-    .pricingTable{ margin-bottom: 25px; }
-}
 
-/* Credit to http://labs.bootstrapthemes.co/demo/Resource/PricingTableStyleDemo38/ */
+/* Credit to http://labs.bootstrapthemes.co/demo/Resource/PricingTableStyleDemo38/ 
